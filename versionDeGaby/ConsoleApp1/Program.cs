@@ -61,8 +61,8 @@ public class Program
             Console.WriteLine(carta);
         }
 
-       Console.WriteLine("\nMano de la banca:");
-       Console.WriteLine(manoBanca[0] + " (Carta oculta)"); // Mostrar solo una carta de la banca (sin revelar la puntuación)
+       Console.WriteLine("\nLa banca ha recibido una carta oculta.");
+
 
         // Turno del jugador
         while (true)
@@ -84,21 +84,17 @@ public class Program
             Console.WriteLine("Has recibido: " + manoJugador.Last());
         }
 
-              Console.WriteLine("\nMostrando la mano completa de la banca...");
-              MostrarManoBanca(manoBanca, true);
-
         // Turno de la banca
         
         while (CalcularPuntuacion(manoBanca) < 17)
         {
             manoBanca.Add(CogerCarta());
-            MostrarManoBanca(manoBanca, true);
         }
 
         // Determinar el ganador
         puntuacionBanca = CalcularPuntuacion(manoBanca);
         Console.WriteLine($"Puntuación final de la banca: {puntuacionBanca}");
-
+        MostrarManoBanca(manoBanca, true);
         if (puntuacionBanca > 21 || puntuacionJugador > puntuacionBanca)
         {
             Console.WriteLine("¡Has ganado!");
