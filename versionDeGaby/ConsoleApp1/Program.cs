@@ -61,7 +61,8 @@ public class Program
             Console.WriteLine(carta);
         }
 
-        //MostrarManoBanca(manoBanca, false); // Solo muestra una carta de la banca
+       Console.WriteLine("\nMano de la banca:");
+       Console.WriteLine(manoBanca[0] + " (Carta oculta)"); // Mostrar solo una carta de la banca (sin revelar la puntuación)
 
         // Turno del jugador
         while (true)
@@ -82,6 +83,9 @@ public class Program
             manoJugador.Add(CogerCarta());
             Console.WriteLine("Has recibido: " + manoJugador.Last());
         }
+
+              Console.WriteLine("\nMostrando la mano completa de la banca...");
+              MostrarManoBanca(manoBanca, true);
 
         // Turno de la banca
         

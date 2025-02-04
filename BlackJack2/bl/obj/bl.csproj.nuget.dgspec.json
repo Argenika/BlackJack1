@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ANGELINA\\Documents\\GitHub\\BlackJack1\\versionDeGaby\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "C:\\Users\\ANGELINA\\Documents\\GitHub\\BlackJack1\\BlackJack2\\bl\\bl.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ANGELINA\\Documents\\GitHub\\BlackJack1\\versionDeGaby\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "C:\\Users\\ANGELINA\\Documents\\GitHub\\BlackJack1\\BlackJack2\\bl\\bl.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ANGELINA\\Documents\\GitHub\\BlackJack1\\versionDeGaby\\ConsoleApp1\\ConsoleApp1.csproj",
-        "projectName": "ConsoleApp1",
-        "projectPath": "C:\\Users\\ANGELINA\\Documents\\GitHub\\BlackJack1\\versionDeGaby\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "C:\\Users\\ANGELINA\\Documents\\GitHub\\BlackJack1\\BlackJack2\\bl\\bl.csproj",
+        "projectName": "bl",
+        "projectPath": "C:\\Users\\ANGELINA\\Documents\\GitHub\\BlackJack1\\BlackJack2\\bl\\bl.csproj",
         "packagesPath": "C:\\Users\\ANGELINA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ANGELINA\\Documents\\GitHub\\BlackJack1\\versionDeGaby\\ConsoleApp1\\obj\\",
+        "outputPath": "C:\\Users\\ANGELINA\\Documents\\GitHub\\BlackJack1\\BlackJack2\\bl\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ANGELINA\\AppData\\Roaming\\NuGet\\NuGet.Config"
